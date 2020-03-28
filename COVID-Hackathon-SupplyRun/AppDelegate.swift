@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  COVID-Hackathon-SupplyRun
+//  test
 //
-//  Created by Vignesh Krishnan on 3/28/20.
-//  Copyright © 2020 Vignesh Krishnan. All rights reserved.
+//  Created by Varun Vedula on 3/28/20.
+//  Copyright © 2020 Varun Vedula. All rights reserved.
 //
 
 import UIKit
@@ -34,4 +34,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+
 

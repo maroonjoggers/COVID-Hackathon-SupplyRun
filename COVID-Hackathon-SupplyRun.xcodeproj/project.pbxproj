@@ -13,7 +13,6 @@
 		1BC495E5242FEF900014F1FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC495E4242FEF900014F1FF /* LaunchScreen.storyboard */; };
 		2FA2F70A242FE4CC0086A1AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA2F709242FE4CC0086A1AE /* AppDelegate.swift */; };
 		2FA2F70C242FE4CC0086A1AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA2F70B242FE4CC0086A1AE /* SceneDelegate.swift */; };
-		2FA2F70E242FE4CC0086A1AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA2F70D242FE4CC0086A1AE /* ContentView.swift */; };
 		2FA2F710242FE4CE0086A1AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA2F70F242FE4CE0086A1AE /* Assets.xcassets */; };
 		2FA2F713242FE4CE0086A1AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA2F712242FE4CE0086A1AE /* Preview Assets.xcassets */; };
 		2FA2F716242FE4CE0086A1AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA2F714242FE4CE0086A1AE /* Main.storyboard */; };
@@ -27,11 +26,10 @@
 		2FA2F706242FE4CC0086A1AE /* COVID-Hackathon-SupplyRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID-Hackathon-SupplyRun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA2F709242FE4CC0086A1AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FA2F70B242FE4CC0086A1AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2FA2F70D242FE4CC0086A1AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2FA2F70F242FE4CE0086A1AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FA2F712242FE4CE0086A1AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2FA2F715242FE4CE0086A1AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2FA2F717242FE4CE0086A1AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD76A034242FF644002042D6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +75,10 @@
 				1BC495DD242FE5C30014F1FF /* Controllers */,
 				2FA2F709242FE4CC0086A1AE /* AppDelegate.swift */,
 				2FA2F70B242FE4CC0086A1AE /* SceneDelegate.swift */,
-				2FA2F70D242FE4CC0086A1AE /* ContentView.swift */,
 				1BC495E4242FEF900014F1FF /* LaunchScreen.storyboard */,
 				2FA2F70F242FE4CE0086A1AE /* Assets.xcassets */,
+				CD76A034242FF644002042D6 /* Info.plist */,
 				2FA2F714242FE4CE0086A1AE /* Main.storyboard */,
-				2FA2F717242FE4CE0086A1AE /* Info.plist */,
 				2FA2F711242FE4CE0086A1AE /* Preview Content */,
 			);
 			path = "COVID-Hackathon-SupplyRun";
@@ -172,7 +169,6 @@
 				2FA2F70C242FE4CC0086A1AE /* SceneDelegate.swift in Sources */,
 				1BC495DF242FE6430014F1FF /* recipientPage.swift in Sources */,
 				1BC495E1242FE66A0014F1FF /* roleViewController.swift in Sources */,
-				2FA2F70E242FE4CC0086A1AE /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
