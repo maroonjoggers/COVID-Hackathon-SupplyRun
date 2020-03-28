@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -21,7 +21,7 @@
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Volunteer "/>
                                 <connections>
-                                    <action selector="volunteerPressed:" destination="01J-lp-oVM" eventType="touchUpInside" id="UYV-Cx-en8"/>
+                                    <action selector="volunteerPressed:" destination="01J-lp-oVM" eventType="touchUpInside" id="V7a-k1-Zth"/>
                                     <segue destination="ky2-Th-ANr" kind="presentation" id="tOo-6L-Pzw"/>
                                 </connections>
                             </button>
@@ -31,7 +31,7 @@
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Recipient"/>
                                 <connections>
-                                    <action selector="recipientPressed:" destination="01J-lp-oVM" eventType="touchUpInside" id="Jy2-3G-Qrj"/>
+                                    <action selector="recipientPressed:" destination="01J-lp-oVM" eventType="touchUpInside" id="dTZ-US-F46"/>
                                     <segue destination="yC0-UQ-WXV" kind="presentation" id="X6l-94-SEE"/>
                                 </connections>
                             </button>

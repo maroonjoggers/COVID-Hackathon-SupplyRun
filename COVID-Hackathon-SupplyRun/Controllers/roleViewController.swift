@@ -10,19 +10,13 @@ import UIKit
 
 class roleViewContoller : UIViewController {
     
-    override func viewDidLoad() {
-        self.viewDidLoad();
-    }
 
-    
     @IBAction func volunteerPressed(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "volunteerPage", sender: self)
     }
     
     @IBAction func recipientPressed(_ sender: UIButton) {
-        
-        self.performSegue(withIdentifier: "recipientPage", sender: self)
     }
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
