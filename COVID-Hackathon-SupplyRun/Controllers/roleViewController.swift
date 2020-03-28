@@ -21,11 +21,11 @@ class roleViewContoller : UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "volunteerPage" {
-            let destinationVC = segue.destination as! volunteerPage
+            _ = segue.destination as! volunteerPage
         }
         
         if segue.identifier == "recipientPage" {
-            let destinationVC = segue.destination as! recipientPage
+            _ = segue.destination as! recipientPage
         }
         
     }
