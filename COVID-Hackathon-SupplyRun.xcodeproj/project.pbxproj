@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		2FA2F710242FE4CE0086A1AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA2F70F242FE4CE0086A1AE /* Assets.xcassets */; };
 		2FA2F713242FE4CE0086A1AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA2F712242FE4CE0086A1AE /* Preview Assets.xcassets */; };
 		2FA2F716242FE4CE0086A1AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA2F714242FE4CE0086A1AE /* Main.storyboard */; };
+		2FA2F71E243011270086A1AE /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FA2F71D243011270086A1AE /* awsconfiguration.json */; };
 		FAECC02EFC8F5A477F399B62 /* Pods_COVID_Hackathon_SupplyRun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADA82E28B936A78EA1A2C52 /* Pods_COVID_Hackathon_SupplyRun.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		2FA2F70F242FE4CE0086A1AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FA2F712242FE4CE0086A1AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2FA2F715242FE4CE0086A1AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FA2F71D243011270086A1AE /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
 		6ADA82E28B936A78EA1A2C52 /* Pods_COVID_Hackathon_SupplyRun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_COVID_Hackathon_SupplyRun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD76A034242FF644002042D6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA31E2CCF398A97EC5D87485 /* Pods-COVID-Hackathon-SupplyRun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COVID-Hackathon-SupplyRun.debug.xcconfig"; path = "Target Support Files/Pods-COVID-Hackathon-SupplyRun/Pods-COVID-Hackathon-SupplyRun.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		2FA2F708242FE4CC0086A1AE /* COVID-Hackathon-SupplyRun */ = {
 			isa = PBXGroup;
 			children = (
+				2FA2F71D243011270086A1AE /* awsconfiguration.json */,
 				1BC495DD242FE5C30014F1FF /* Controllers */,
 				2FA2F709242FE4CC0086A1AE /* AppDelegate.swift */,
 				2FA2F70B242FE4CC0086A1AE /* SceneDelegate.swift */,
@@ -113,7 +116,6 @@
 				EA31E2CCF398A97EC5D87485 /* Pods-COVID-Hackathon-SupplyRun.debug.xcconfig */,
 				2E87100F5C18C51B090EB514 /* Pods-COVID-Hackathon-SupplyRun.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -177,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA2F71E243011270086A1AE /* awsconfiguration.json in Resources */,
 				2FA2F716242FE4CE0086A1AE /* Main.storyboard in Resources */,
 				1BC495E5242FEF900014F1FF /* LaunchScreen.storyboard in Resources */,
 				2FA2F713242FE4CE0086A1AE /* Preview Assets.xcassets in Resources */,
