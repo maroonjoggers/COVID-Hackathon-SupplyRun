@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"covidhackathonsupply4a0f1b5c": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

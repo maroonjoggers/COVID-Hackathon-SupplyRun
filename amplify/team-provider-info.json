@@ -1,0 +1,20 @@
+{
+    "supplyrun": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-covidhackathonsupply-supplyrun-175125-authRole",
+            "UnauthRoleArn": "arn:aws:iam::302081314346:role/amplify-covidhackathonsupply-supplyrun-175125-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::302081314346:role/amplify-covidhackathonsupply-supplyrun-175125-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-covidhackathonsupply-supplyrun-175125-deployment",
+            "UnauthRoleName": "amplify-covidhackathonsupply-supplyrun-175125-unauthRole",
+            "StackName": "amplify-covidhackathonsupply-supplyrun-175125",
+            "StackId": "arn:aws:cloudformation:us-east-2:302081314346:stack/amplify-covidhackathonsupply-supplyrun-175125/a8783100-7146-11ea-9ba8-027927fac094",
+            "AmplifyAppId": "ds59jlitwrscm"
+        },
+        "categories": {
+            "auth": {
+                "covidhackathonsupply4a0f1b5c": {}
+            }
+        }
+    }
+}

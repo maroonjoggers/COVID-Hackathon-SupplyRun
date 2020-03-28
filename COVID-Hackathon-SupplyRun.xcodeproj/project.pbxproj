@@ -16,6 +16,7 @@
 		2FA2F710242FE4CE0086A1AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA2F70F242FE4CE0086A1AE /* Assets.xcassets */; };
 		2FA2F713242FE4CE0086A1AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA2F712242FE4CE0086A1AE /* Preview Assets.xcassets */; };
 		2FA2F716242FE4CE0086A1AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA2F714242FE4CE0086A1AE /* Main.storyboard */; };
+		FAECC02EFC8F5A477F399B62 /* Pods_COVID_Hackathon_SupplyRun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADA82E28B936A78EA1A2C52 /* Pods_COVID_Hackathon_SupplyRun.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +24,16 @@
 		1BC495E0242FE66A0014F1FF /* roleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roleViewController.swift; sourceTree = "<group>"; };
 		1BC495E2242FE6770014F1FF /* volunteerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volunteerPage.swift; sourceTree = "<group>"; };
 		1BC495E4242FEF900014F1FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E87100F5C18C51B090EB514 /* Pods-COVID-Hackathon-SupplyRun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COVID-Hackathon-SupplyRun.release.xcconfig"; path = "Target Support Files/Pods-COVID-Hackathon-SupplyRun/Pods-COVID-Hackathon-SupplyRun.release.xcconfig"; sourceTree = "<group>"; };
 		2FA2F706242FE4CC0086A1AE /* COVID-Hackathon-SupplyRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID-Hackathon-SupplyRun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA2F709242FE4CC0086A1AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FA2F70B242FE4CC0086A1AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2FA2F70F242FE4CE0086A1AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FA2F712242FE4CE0086A1AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2FA2F715242FE4CE0086A1AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ADA82E28B936A78EA1A2C52 /* Pods_COVID_Hackathon_SupplyRun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_COVID_Hackathon_SupplyRun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD76A034242FF644002042D6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA31E2CCF398A97EC5D87485 /* Pods-COVID-Hackathon-SupplyRun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COVID-Hackathon-SupplyRun.debug.xcconfig"; path = "Target Support Files/Pods-COVID-Hackathon-SupplyRun/Pods-COVID-Hackathon-SupplyRun.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,12 +41,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAECC02EFC8F5A477F399B62 /* Pods_COVID_Hackathon_SupplyRun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10F17FB74C82A27C2E89F1F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ADA82E28B936A78EA1A2C52 /* Pods_COVID_Hackathon_SupplyRun.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1BC495DD242FE5C30014F1FF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +71,8 @@
 			children = (
 				2FA2F708242FE4CC0086A1AE /* COVID-Hackathon-SupplyRun */,
 				2FA2F707242FE4CC0086A1AE /* Products */,
+				933631C711BAE1D1FC4F92ED /* Pods */,
+				10F17FB74C82A27C2E89F1F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +107,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		933631C711BAE1D1FC4F92ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA31E2CCF398A97EC5D87485 /* Pods-COVID-Hackathon-SupplyRun.debug.xcconfig */,
+				2E87100F5C18C51B090EB514 /* Pods-COVID-Hackathon-SupplyRun.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FA2F71A242FE4CE0086A1AE /* Build configuration list for PBXNativeTarget "COVID-Hackathon-SupplyRun" */;
 			buildPhases = (
+				C54574A6D865AA364D954BE2 /* [CP] Check Pods Manifest.lock */,
 				2FA2F702242FE4CC0086A1AE /* Sources */,
 				2FA2F703242FE4CC0086A1AE /* Frameworks */,
 				2FA2F704242FE4CC0086A1AE /* Resources */,
+				2AE31713C081E15CE151D931 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +185,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AE31713C081E15CE151D931 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-COVID-Hackathon-SupplyRun/Pods-COVID-Hackathon-SupplyRun-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-COVID-Hackathon-SupplyRun/Pods-COVID-Hackathon-SupplyRun-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-COVID-Hackathon-SupplyRun/Pods-COVID-Hackathon-SupplyRun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C54574A6D865AA364D954BE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-COVID-Hackathon-SupplyRun-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2FA2F702242FE4CC0086A1AE /* Sources */ = {
@@ -302,6 +371,7 @@
 		};
 		2FA2F71B242FE4CE0086A1AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA31E2CCF398A97EC5D87485 /* Pods-COVID-Hackathon-SupplyRun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -323,6 +393,7 @@
 		};
 		2FA2F71C242FE4CE0086A1AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E87100F5C18C51B090EB514 /* Pods-COVID-Hackathon-SupplyRun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
