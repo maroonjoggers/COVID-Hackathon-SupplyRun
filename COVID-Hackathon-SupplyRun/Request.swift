@@ -8,5 +8,5 @@
 
 
 struct Request {
-    task : string
+    let task : string
 }
