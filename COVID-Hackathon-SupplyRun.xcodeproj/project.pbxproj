@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BB3560B2430436900E80056 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3560A2430436900E80056 /* Request.swift */; };
 		1BC495DF242FE6430014F1FF /* recipientPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC495DE242FE6430014F1FF /* recipientPage.swift */; };
 		1BC495E1242FE66A0014F1FF /* roleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC495E0242FE66A0014F1FF /* roleViewController.swift */; };
 		1BC495E3242FE6770014F1FF /* volunteerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC495E2242FE6770014F1FF /* volunteerPage.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BB3560A2430436900E80056 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		1BC495DE242FE6430014F1FF /* recipientPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipientPage.swift; sourceTree = "<group>"; };
 		1BC495E0242FE66A0014F1FF /* roleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roleViewController.swift; sourceTree = "<group>"; };
 		1BC495E2242FE6770014F1FF /* volunteerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volunteerPage.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				2FA2F70F242FE4CE0086A1AE /* Assets.xcassets */,
 				CD76A034242FF644002042D6 /* Info.plist */,
 				2FA2F714242FE4CE0086A1AE /* Main.storyboard */,
+				1BB3560A2430436900E80056 /* Request.swift */,
 				2FA2F711242FE4CE0086A1AE /* Preview Content */,
 			);
 			path = "COVID-Hackathon-SupplyRun";
@@ -243,6 +246,7 @@
 				1BC495E3242FE6770014F1FF /* volunteerPage.swift in Sources */,
 				2FA2F7202430282E0086A1AE /* loginPage.swift in Sources */,
 				2FA2F70C242FE4CC0086A1AE /* SceneDelegate.swift in Sources */,
+				1BB3560B2430436900E80056 /* Request.swift in Sources */,
 				1BC495DF242FE6430014F1FF /* recipientPage.swift in Sources */,
 				1BC495E1242FE66A0014F1FF /* roleViewController.swift in Sources */,
 			);

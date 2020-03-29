@@ -12,6 +12,7 @@ class roleViewContoller : UIViewController {
     
 
     @IBAction func volunteerPressed(_ sender: UIButton) {
+        
     }
     
     @IBAction func recipientPressed(_ sender: UIButton) {
