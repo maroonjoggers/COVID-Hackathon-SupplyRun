@@ -17,6 +17,7 @@
 		2FA2F713242FE4CE0086A1AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA2F712242FE4CE0086A1AE /* Preview Assets.xcassets */; };
 		2FA2F716242FE4CE0086A1AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA2F714242FE4CE0086A1AE /* Main.storyboard */; };
 		2FA2F71E243011270086A1AE /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FA2F71D243011270086A1AE /* awsconfiguration.json */; };
+		2FA2F7202430282E0086A1AE /* loginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA2F71F2430282E0086A1AE /* loginPage.swift */; };
 		FAECC02EFC8F5A477F399B62 /* Pods_COVID_Hackathon_SupplyRun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADA82E28B936A78EA1A2C52 /* Pods_COVID_Hackathon_SupplyRun.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		2FA2F712242FE4CE0086A1AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2FA2F715242FE4CE0086A1AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FA2F71D243011270086A1AE /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		2FA2F71F2430282E0086A1AE /* loginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPage.swift; sourceTree = "<group>"; };
 		6ADA82E28B936A78EA1A2C52 /* Pods_COVID_Hackathon_SupplyRun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_COVID_Hackathon_SupplyRun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD76A034242FF644002042D6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA31E2CCF398A97EC5D87485 /* Pods-COVID-Hackathon-SupplyRun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COVID-Hackathon-SupplyRun.debug.xcconfig"; path = "Target Support Files/Pods-COVID-Hackathon-SupplyRun/Pods-COVID-Hackathon-SupplyRun.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				1BC495DE242FE6430014F1FF /* recipientPage.swift */,
 				1BC495E0242FE66A0014F1FF /* roleViewController.swift */,
 				1BC495E2242FE6770014F1FF /* volunteerPage.swift */,
+				2FA2F71F2430282E0086A1AE /* loginPage.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			files = (
 				2FA2F70A242FE4CC0086A1AE /* AppDelegate.swift in Sources */,
 				1BC495E3242FE6770014F1FF /* volunteerPage.swift in Sources */,
+				2FA2F7202430282E0086A1AE /* loginPage.swift in Sources */,
 				2FA2F70C242FE4CC0086A1AE /* SceneDelegate.swift in Sources */,
 				1BC495DF242FE6430014F1FF /* recipientPage.swift in Sources */,
 				1BC495E1242FE66A0014F1FF /* roleViewController.swift in Sources */,

@@ -7,3 +7,28 @@
 //
 
 import Foundation
+import UIKit
+import AWSAuthCore
+import AWSAuthUI
+
+class loginPage : UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        showSignIn();
+    }
+    
+    func showSignIn() {
+        if !AWSSignInManager.sharedInstance().isLoggedIn {
+           AWSAuthUIViewController
+             .presentViewController(with: self.navigationController!,
+                  configuration: nil,
+                  completionHandler: { (provider: AWSSignInProvider, error: Error?) in
+                     if error != nil {
+                         print("Error occurred: \(String(describing: error))")
+                     } else {
+                         // Sign in successful.
+                     }
+                  })
+        }
+    }
+}
