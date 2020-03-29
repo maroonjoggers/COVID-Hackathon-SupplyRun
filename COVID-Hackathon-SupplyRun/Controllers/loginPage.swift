@@ -26,9 +26,17 @@ class loginPage : UIViewController {
                      if error != nil {
                          print("Error occurred: \(String(describing: error))")
                      } else {
-                         // Sign in successful.
+                        // add code for going straight to roleViewContoller
                      }
                   })
         }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "loginPage" {
+            _ = segue.destination as! roleViewContoller
+        }
+        
     }
 }
